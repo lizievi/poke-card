@@ -49,14 +49,17 @@ body {
   border-bottom: 1px solid var(--gray-100);
 }
 .card-body-img {
+  width: 200px;
+  height: 200px;
   border: 5px solid white;
   border-radius: 50%;
-  margin-top: -53px;
+  margin-top: -105px;
   background-color: #fff;
 }
 .card-body-title {
   margin-top: 2rem;
   font-size: 2rem;
+  text-transform: capitalize;
 }
 .card-body-title span {
   color: var(--gray-500);
